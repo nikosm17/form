@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Καταχώρηση προβλήματος</title>
+</head>
+<body>
+    <h1>Εισαγωγή νέου προβλήματος</h1>
+
+    <form id="ticketForm">
+        <input type="text" id="client" placeholder="Όνομα πελάτη" required>
+        <input type="text" id="description" placeholder="Περιγραφή προβλήματος" required>
+        <select id="status">
+            <option>Ανοιχτό</option>
+            <option>Σε εξέλιξη</option>
+            <option>Λύθηκε</option>
+        </select>
+        <button type="submit">Καταχώρηση</button>
+    </form>
+    <script src="new.js"></script>
+</body>
+</html>

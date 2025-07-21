@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+h1{
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.button{
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #007acc;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+input, select,  button{
+    padding: 10px;
+    flex: 1;
+    max-width: 150px;
+}

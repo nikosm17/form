@@ -1,0 +1,12 @@
+[
+    {
+    "id": "100001",
+    "username":"citystore",
+    "password":"pass"
+ },
+ {
+    "id": "100002",
+    "username":"example",
+    "password":"123"
+ }
+]
