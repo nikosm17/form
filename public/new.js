@@ -1,10 +1,13 @@
 const form = document.getElementById('ticketForm');
+const client = document.getElementById('client');
+const description = document.getElementById('description');
+const status = document.getElementById('status');
 
 form.addEventListener('submit', async(e)=>{
     const newTicket = {
-        client: form.client.value,
-        description: form.description.value,
-        status: form.status.value
+        client: client.value,
+        description: description.value,
+        status: status.value
     };
     const res = await fetch('/tickets', {
         method: 'POST',
@@ -13,6 +16,6 @@ form.addEventListener('submit', async(e)=>{
     });
 
     if(res.ok){
-        window.location.href = 'new.html';
+        window.location.href = 'nextpage.html';
     }
 })
