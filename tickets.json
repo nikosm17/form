@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "client": "1",
+    "telephone": "23",
+    "description": "4",
+    "status": "Ανοιχτό",
+    "tech": "5"
+  },
+  {
+    "client": "12",
+    "telephone": "12",
+    "description": "12",
+    "status": "Σε εξέλιξη",
+    "tech": "12"
+  },
+  {
+    "client": "4",
+    "telephone": "5",
+    "description": "67",
+    "status": "Λύθηκε",
+    "tech": "14"
+  }
+]

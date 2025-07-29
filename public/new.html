@@ -7,18 +7,27 @@
     <title>Καταχώρηση προβλήματος</title>
 </head>
 <body>
-    <h1>Εισαγωγή νέου προβλήματος</h1>
-
+    <div class="container">
+    <div class="left-side">
+    </div>
+    <div class="right-side">
+    <div id="outer">
+      <h1>Εισαγωγή νέου προβλήματος</h1>  
     <form id="ticketForm">
         <input type="text" id="client" placeholder="Όνομα πελάτη" required>
+        <input type="tel" id="telephone" placeholder="Τηλέφωνο" required>
         <input type="text" id="description" placeholder="Περιγραφή προβλήματος" required>
+        <input type="text" id="tech" placeholder="Τεχνικός" required>
         <select id="status">
             <option>Ανοιχτό</option>
             <option>Σε εξέλιξη</option>
             <option>Λύθηκε</option>
         </select>
-        <button type="submit">Καταχώρηση</button>
+        <button type="submit" class="submit">Καταχώρηση</button>
     </form>
+    </div>
+    </div>
+    </div>
     <script src="new.js"></script>
 </body>
 </html>

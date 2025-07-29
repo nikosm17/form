@@ -1,0 +1,86 @@
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 70px;
+}
+body{
+    background-color: #686279;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+table{
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: #2c2638;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  color: white;
+  box-shadow:  0 0 10px rgb(171, 59, 216);
+}
+
+table td, table th {
+  padding-left: 8px;
+}
+table thead tr {
+  height: 60px;
+  background: #36304a;
+}
+table tbody tr {
+  height: 50px;
+}
+table tbody tr:last-child {
+  border: 0;
+}
+table td, table th {
+  text-align: left;
+}
+table td.l, table th.l {
+  text-align: right;
+}
+table td.c, table th.c {
+  text-align: center;
+}
+table td.r, table th.r {
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #36304a;
+}
+
+tbody tr {
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+  color: white;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+tbody tr:hover {
+  color: white;
+  background-color: #36304a;
+  cursor: pointer;
+}
+.button-container {
+  margin-top: 30px; 
+  text-align: center;
+}
+.button{
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #2c2638;
+    width: 80px;
+    height: 1px;
+    padding: 20px;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 40px;
+}
+.button:hover{
+    background-color: #6d54b7;
+    color: white;
+}
